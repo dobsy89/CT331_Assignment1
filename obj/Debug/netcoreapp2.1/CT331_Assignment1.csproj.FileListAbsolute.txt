@@ -1,0 +1,11 @@
+/Users/davinobrien/Projects/CT331_Assignment1/bin/Debug/netcoreapp2.1/CT331_Assignment1.deps.json
+/Users/davinobrien/Projects/CT331_Assignment1/bin/Debug/netcoreapp2.1/CT331_Assignment1.runtimeconfig.json
+/Users/davinobrien/Projects/CT331_Assignment1/bin/Debug/netcoreapp2.1/CT331_Assignment1.runtimeconfig.dev.json
+/Users/davinobrien/Projects/CT331_Assignment1/bin/Debug/netcoreapp2.1/CT331_Assignment1.dll
+/Users/davinobrien/Projects/CT331_Assignment1/bin/Debug/netcoreapp2.1/CT331_Assignment1.pdb
+/Users/davinobrien/Projects/CT331_Assignment1/obj/Debug/netcoreapp2.1/CT331_Assignment1.csprojAssemblyReference.cache
+/Users/davinobrien/Projects/CT331_Assignment1/obj/Debug/netcoreapp2.1/CT331_Assignment1.csproj.CoreCompileInputs.cache
+/Users/davinobrien/Projects/CT331_Assignment1/obj/Debug/netcoreapp2.1/CT331_Assignment1.AssemblyInfoInputs.cache
+/Users/davinobrien/Projects/CT331_Assignment1/obj/Debug/netcoreapp2.1/CT331_Assignment1.AssemblyInfo.cs
+/Users/davinobrien/Projects/CT331_Assignment1/obj/Debug/netcoreapp2.1/CT331_Assignment1.dll
+/Users/davinobrien/Projects/CT331_Assignment1/obj/Debug/netcoreapp2.1/CT331_Assignment1.pdb
