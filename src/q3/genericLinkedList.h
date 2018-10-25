@@ -1,31 +1,38 @@
 #ifndef CT331_ASSIGNMENT_GENERIC_LINKED_LIST
 #define CT331_ASSIGNMENT_GENERIC_LINKED_LIST
 
-typedef void (*printer) (void *info);
+//function pointer definition, takes in data
+typedef void (*printFunc) (void *data);
 
-typedef struct genericListElementStruct {
-    void *info;
-    size_t size;
-    printer printFunc;
-    struct genericListElementStruct *next;
-} genericListElement;
+typedef struct genListElementStruct{
+  void* data;
+  size_t size;
+  printFunc print;  //print function def
+  struct genListElementStruct* next;
+} genListElement;
 
-genericListElement *createEl(void *info, size_t size, printer);
+//Creates a new linked list element with given content of size
+//Returns a pointer to the element
+genListElement* createEl(void* data, size_t size, printFunc);
 
-int length(genericListElement *list);
+//Prints out each element in the list
+void traverse(genListElement* start);
 
-void push(genericListElement **list, void *info, size_t size, printer);
+//Inserts a new element after the given el
+//Returns the pointer to the new element
+genListElement* insertAfter(genListElement* after, void* data, size_t size, printFunc);
 
-genericListElement *pop(genericListElement **list);
+//Delete the element after the given el
+void deleteAfter(genListElement* after);
 
-void enqueue(genericListElement **list, void *info, size_t size, printer);
+int length(genListElement* list);
 
-genericListElement *dequeue(genericListElement *list);
+void push(genListElement** list,void* data, size_t size, printFunc);
 
-void traverse(genericListElement *beginning);
+genListElement* pop(genListElement** list);
 
-genericListElement* insertAfter(genericListElement* ele, void *info, size_t size, printer);
+void enqueue(genListElement **list, void *data, size_t size, printFunc);
 
-void deleteAfter(genericListElement* afterEle);
+genListElement* dequeue(genListElement* list);
 
 #endif
